@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 50px;
+    gap: 10px;
+    
 
 
 }
@@ -14,9 +16,8 @@
 }
 
 .order-container {
-    position: sticky;
-    top: 0;
-    background-color: cyan;
+
+    background-color: lightcyan;
     border-radius: 30px;
 
 
@@ -25,9 +26,9 @@
 .random {
     width: 60%;
     padding: 10px;
-    color: seashell;
+    color: whitesmoke;
     border-radius: 10px;
-    background-color: darkolivegreen;
+    background-color: steelblue;
     font-size: 17px;
     font-weight: 700;
     margin-top: 10px;
@@ -35,10 +36,10 @@
 
 .clear {
     width: 60%;
-    color: aqua;
+    color: white;
     padding: 10px;
     border-radius: 10px;
-    background-color: crimson;
+    background-color: cadetblue;
     font-size: 17px;
     font-weight: 700;
     margin-top: 10px;
