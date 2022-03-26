@@ -12,6 +12,29 @@
 
 }
 
+.random {
+    width: 60%;
+    padding: 10px;
+    color: seashell;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.clear {
+    width: 60%;
+    color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: crimson;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
 
 
 @media screen and (max-width: 688px) {
@@ -25,6 +48,6 @@
     .shop-container {
         display: flex;
         flex-direction: column;
-        
+
     }
 }
