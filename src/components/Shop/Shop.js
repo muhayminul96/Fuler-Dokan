@@ -19,7 +19,7 @@ const Shop = () => {
 
     const addCartHandler = (flower) => {
         if (cart.length < 4){
-            console.log(cart.indexOf(flower))
+            
             if(cart.indexOf(flower) < 0){
                 const newCart = [...cart , flower]
                 setCart(newCart)
