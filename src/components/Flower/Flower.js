@@ -1,7 +1,7 @@
 import React from 'react';
 import './Flower.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartPlus, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCartPlus,  } from '@fortawesome/free-solid-svg-icons'
 
 const Flower = ({flower, cartHandler}) => {
     
