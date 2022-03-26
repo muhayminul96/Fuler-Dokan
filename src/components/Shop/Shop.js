@@ -37,7 +37,7 @@ const Shop = () => {
     const randomSelections = () => {
         if(cart.length > 1){
             const random = Math.floor(Math.random() * cart.length);
-            alert(cart[random].name);
+            alert( "You can take " + cart[random].name);
         }
         
     }
