@@ -1,4 +1,30 @@
 .shop-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 50px;
+
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+
+
+@media screen and (max-width: 688px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .shop-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }

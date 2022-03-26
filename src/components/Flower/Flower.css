@@ -1,0 +1,13 @@
+.flower-container {
+    margin-bottom: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: azure;
+}
+
+.add-cart {
+    width: 100%;
+    padding: 20px;
+    font-weight: 700;
+}
+

@@ -1,12 +1,22 @@
-import React from 'react';
-import Products from '../Products/Products';
+import React, { useState } from 'react';
+import { useEffect } from 'react';
+import Flower from '../Flower/Flower';
 import './Shop.css'
 
 const Shop = () => {
+    const [flowers,setFlowers] = useState([])
+    useEffect(()=>{
+      fetch('flower.json')
+      .then(res => res.json())
+      .then(data => setFlowers(data))
+    },[])
+    console.log(flowers)
     return (
         <div className='shop-container'>
             <div className="product-container">
-            <Products></Products>
+            {
+                flowers.map(flower => <Flower key ={flower._id} flower ={flower}></Flower> )
+            }
             </div>
             <div className="order-container">
             <h1>hello order</h1>
