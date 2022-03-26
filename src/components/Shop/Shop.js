@@ -40,6 +40,10 @@ const Shop = () => {
             const random = Math.floor(Math.random() * cart.length);
             alert( "You can take " + cart[random].name);
         }
+        else{
+            alert('need at least 2 item for random choice')
+            
+        }
         
     }
 
